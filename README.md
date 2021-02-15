@@ -11,7 +11,7 @@ This plugin is mainly designed for scientists (mathematicians, physicists,
 chemists, biologists, ...) and IT professionals (data scientists, ...).
 The main purpose is to give an ability to write lighter text and is to
 offload markup (Markdown, AsciiDoc, reStructuredText, LaTeX) from excessive
-commands or long syntax. Writing `α` instead of `\\alpha` makes text much
+commands or long syntax. Writing `α` instead of `\alpha` makes text much
 more readable, doesn't it? Moreover, thanks to Keypirinha's independency,
 you can use LaTeX-like syntax almost everywhere. It can be plain text
 editors (Vim, Emacs, Atom, Visual Studio Code, ...) and even WYSWYG editors
@@ -47,7 +47,8 @@ Example:
 1. Enter the Warp environment (type `$` and press *Enter*). Now you will see
 some suggestions of this plugin.
 2. Enter the **mathfrak** environment. Start typing `mathfrak` or `\mathfrak`
-and you will see suggestion `\mathfrak`. Press *Enter*.
+and you will see suggestion `\mathfrak` (in most cases, it is not necessary to
+use the `\` character to get a correct suggestion). Press *Enter*.
 3. Type `Hello World!` and press *Enter*.
 4. Now in your system cipboard will be `ℌ𝔢𝔩𝔩𝔬, 𝔚𝔬𝔯𝔩𝔡!`. You can paste it into an
 arbitary text editor or some text field (:note: some text fields don't support

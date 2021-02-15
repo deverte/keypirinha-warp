@@ -14,7 +14,7 @@ import keypirinha as kp
 
 MAPPING_SYMBOLS = [
     # Main punctuation
-    ["--", "‒"],
+    ["--", "—"],
     # Capital Greek Letters
     ["\\Alpha", "Α"], # additional
     ["\\Beta", "Β"], # additional
